@@ -5,22 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylsheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Document</title>
 </head>
 
 <body>
     <div id="wrapper">
 
-        <!-- My name heading -->
-        <div id="heading">
-            <h1>Your Name</h1>
-        </div>
-
-        <div id="container">
-
-            <!-- Navigation headings -->
-            <nav class="navigation">
+        <!-- Navigation headings -->
+        <nav class="navigation">
+            <div id="nav-links">
                 <div class="about">
                     <a href="index.html">About</a>
                 </div>
@@ -30,27 +24,30 @@
                 </div>
 
                 <div class="contact">
-                    <a href="contact.html" >Contact</a >
+                    <a href="contact.html">Contact</a>
                 </div>
+            </div>
+        </nav>
 
-                <!-- About Me Heading -->
-                <div id="about-me">
-                    <h1>About Me</h1>
-                </div>
-            </nav>
-            
+        <!-- My name heading -->
+        <div id="heading">
+            <h1>Your Name</h1>
+        </div>
+
+        <div id="container">
             <!-- Contact Input Box -->
             <div id="contact-box">
                 <form action="/action_page.php" id="form1">
-                    Name <input type="text" name="name" placeholder="John Smith">
-                   
-                    <br><br>
-                   
-                    Email <input type="text" name="email" placeholder="example@gmail.com">
-                   
-                    <br><br>
+                    Name
+                    <input type="text" name="name" placeholder="John Smith">
 
-                    Message <input type="text" name="message">
+                    <br>
+                    <br> Email
+                    <input type="text" name="email" placeholder="example@gmail.com">
+
+                    <br>
+                    <br> Message
+                    <input type="text" name="message">
 
                     <input type="submit" value="Submit">
                 </form>

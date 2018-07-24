@@ -1,9 +1,10 @@
 
 body{
-    background-color: #777;
+    
 }
  /* Main Container Divs */
 #container {
+    margin-top: 40px;
     max-width: 960px;
     position: fixed;
     margin-left: auto;
@@ -16,6 +17,7 @@ body{
 #wrapper{
     background-color: #ffffff;
     max-height: 80px;
+    border-bottom: rgb(63, 63, 63) solid 2px;
 }
 
 #heading{
@@ -36,7 +38,7 @@ body{
     width: 300px;
     left: 800px;
 }
-
+/* Main Navigation Divs */
 #navigation {
     position: relative;
     height: inherit;
@@ -49,19 +51,26 @@ body{
 #nav-links {
     position: relative;
     float: right;
+    vertical-align: middle;
+    line-height: 80px;  
+    text-align: center;
+    right: 40px;
 }
 
 /* Navigation Links */
 .about {
     display: inline-block;
+    padding: 5px;
 }
 
 .portfolio{
     display: inline-block;
+    padding: 5px;
 }
 
 .contact {
     display: inline-block;
+    padding: 5px;
 }
 
 #about-me {
