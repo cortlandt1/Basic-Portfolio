@@ -10,15 +10,15 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
-    border: 1px gray solid;
+    border: 1px rgb(182, 182, 182) solid;
     position: relative;
 }
 
 #wrapper{
-    margin-top: 2px;
+    margin-top: -19px;
     background-color: #ffffff;
     max-height: 100px;
-    border-bottom: rgb(63, 63, 63) solid 2px;
+    border-bottom: rgb(182, 182, 182) solid 2px;
 }
 
 #heading{
@@ -35,11 +35,6 @@ body{
     color: white;
 }
 
-#profile-image {
-    height: 200px;
-    width: 300px;
-    left: 800px;
-}
 /* Main Navigation Divs */
 #navigation {
      display: flex; 
@@ -86,11 +81,17 @@ body{
 }
 
 #info-paragraphs {
-
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-p {
+.p-index {
     padding: 10px;
+    line-height: 26px;
+}
+
+.p-contact {
+    margin-left: 20px;
 }
 
 .image_1 {
@@ -99,25 +100,32 @@ p {
      float: left;
      padding: 5px;
      padding-left: 10px;
+     padding-right: 20px;
 }
 
 #container-portfolio {
-    background-color: red;
+    background-color: white;
+    border: 1px rgb(182, 182, 182) solid;
     display: grid;
     max-width: 800px;
     width: 50%;
     margin: auto;
     padding: 10px;
     padding-left: 123px;
-    top: 217px;
+    top: 75px;
     justify-content: space-between;
     position: relative;
     grid-gap: 270px;
     grid-column-gap: ;
 }
 
+.portfolio-header {
+    color: #4aaaa5;
+    position: absolute;
+    left: 36px;
+}
+
 #info-box1 {
-    background-color: blue;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -125,7 +133,6 @@ p {
 }
 
 #info-box2 {
-    background-color: blue;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -133,7 +140,6 @@ p {
 }
 
 #info-box3 {
-    background-color: blue;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -141,7 +147,6 @@ p {
 }
 
 #info-box4 {
-    background-color: blue;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -149,7 +154,6 @@ p {
 }
 
 #info-box5 {
-    background-color: blue;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -163,3 +167,40 @@ p {
     margin-top: 58px;
 }
 
+.contact-heading {
+    color: #4aaaa5;
+    margin-left: 20px;
+}
+
+#name {
+    margin-left: 20px;
+
+
+}
+
+#email {
+    margin-left: 20px;
+
+}
+
+#message {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+
+}
+
+.submit {
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+}

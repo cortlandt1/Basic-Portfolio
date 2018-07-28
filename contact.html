@@ -8,6 +8,12 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Document</title>
 </head>
+<style>
+    hr {
+        width: 920px;
+        border-color: rgb(182, 182, 182)
+    }
+</style>
 
 <body>
     <div id="wrapper">
@@ -31,30 +37,40 @@
 
         <!-- My name heading -->
         <div id="heading">
-            <h1>Your Name</h1>
+            <h1>Cortland Taylor</h1>
         </div>
 
         <div id="container">
+            <div class="contact-heading">
+                <h1>Contact</h1>
+            </div>
+            <hr noshade>
             <!-- Contact Input Box -->
             <div id="contact-box">
                 <form action="/action_page.php" id="form1">
-                    Name
-                    <input type="text" name="name" placeholder="John Smith">
+                    <p class="p-contact">Name</p>
+                    <input id="name" type="text" name="name" placeholder="John Smith">
 
                     <br>
-                    <br> Email
-                    <input type="text" name="email" placeholder="example@gmail.com">
+                    <br>
+                    <p class="p-contact">Email</p>
+                    <input id="email" type="text" name="email" placeholder="example@gmail.com">
 
                     <br>
-                    <br> Message
-                    <input type="text" name="message">
+                    <br>
+                    <div class="message-container">
+                        <p class="p-contact">Message</p>
+                        <input id="message" type="text" name="message">
 
-                    <input type="submit" value="Submit">
+                    </div>
+                    <input class="submit" type="submit" value="Submit">
                 </form>
             </div>
 
         </div>
     </div>
+
+    <img src='assets/images/dust_scratches.png' style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'>
 </body>
 
 </html>
